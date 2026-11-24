@@ -11,6 +11,8 @@ kontrolu, núdzové zastavenie a automatické pristátie pri strate signálu ale
 
 ## Postup spustenia aplikácie
 
+> Plánovaný postup – dron je vo fáze návrhu a zostavovania, firmvér a aplikácia sa pripravujú.
+
 1. Nabite batériu LiPo 3S a pripojte ju k dronu (dron položte na rovnú plochu).
 2. Počkajte na signalizáciu pripravenosti (zelená LED, 2 pípnutia).
 3. Pripojte mobilný telefón k WiFi sieti `DRON-BK` (heslo dostane pilot od tímu).
