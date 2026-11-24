@@ -1,4 +1,4 @@
-# 02 ANALÝZA – Ako funguje problematika / súčasný stav
+# 02 Analýza – Ako funguje problémová oblasť
 
 Obsah priečinka:
 - prehľad existujúcich riešení (hotové drony, otvorené firmvéry riadiacich jednotiek),

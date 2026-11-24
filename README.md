@@ -1,28 +1,34 @@
 # Dron
 
-Ročníkový projekt – kvadrokoptéra s riadiacou jednotkou ESP32, ovládaná webovou aplikáciou v mobilnom telefóne cez WiFi.
+**Autori:** Marián Barcík (softvér), Radovan Kudri (hardvér)
+**Trieda:** 3.BTL
 
-| | |
-|---|---|
-| **Trieda** | 3.BTL |
-| **Softvér** | Marián Barcík |
-| **Hardvér** | Radovan Kudri |
+## Cieľ projektu
+
+Navrhnúť a zostrojiť dron typu kvadrokoptéra s vlastnou riadiacou jednotkou ESP32, ovládaný webovou aplikáciou
+v mobilnom telefóne cez WiFi. Dron stabilizuje let pomocou PID regulátora a má bezpečnostné funkcie – predletovú
+kontrolu, núdzové zastavenie a automatické pristátie pri strate signálu alebo vybitej batérii.
+
+## Postup spustenia aplikácie
+
+1. Nabite batériu LiPo 3S a pripojte ju k dronu (dron položte na rovnú plochu).
+2. Počkajte na signalizáciu pripravenosti (zelená LED, 2 pípnutia).
+3. Pripojte mobilný telefón k WiFi sieti `DRON-BK` (heslo dostane pilot od tímu).
+4. V prehliadači otvorte adresu `http://192.168.4.1`.
+5. Pred letom stlačte `ARM` a aktiváciu potvrďte podržaním tlačidla.
+
+Podrobný návod bude v priečinku `06_Dokumentacia`.
 
 ## Štruktúra projektu
 
-| Priečinok | Obsah |
-|---|---|
-| [`01_POZIADAVKY`](01_POZIADAVKY) | Čo má systém robiť – požiadavky, role a prípady použitia |
-| [`02_ANALYZA`](02_ANALYZA) | Ako funguje problematika, súčasný stav |
-| [`03_NAVRH`](03_NAVRH) | Ako navrhneme riešenie |
-| [`04_IMPLEMENTACIA`](04_IMPLEMENTACIA) | Zdrojové kódy a aplikácia |
-| [`05_TESTOVANIE`](05_TESTOVANIE) | Overovanie správnosti |
-| [`06_DOKUMENTACIA`](06_DOKUMENTACIA) | Návody a inštalácia |
-
-## 01 Požiadavky
-
-- [`poziadavky.xlsx`](01_POZIADAVKY/poziadavky.xlsx) – požiadavky na systém (hardvér, softvér, nefunkčné požiadavky) s prioritou a akceptačnými kritériami
-- [`pripady-pouzitia/Role_a_pripady_pouzitia.docx`](01_POZIADAVKY/pripady-pouzitia/Role_a_pripady_pouzitia.docx) – role (Pilot, Technik, Systém), zoznam a diagram prípadov použitia
-- [`pripady-pouzitia/UC-001` až `UC-010`](01_POZIADAVKY/pripady-pouzitia) – podrobné prípady použitia
-
-![Diagram prípadov použitia](01_POZIADAVKY/pripady-pouzitia/diagram-pripadov-pouzitia.png)
+```
+Barcik_Kudri-Dron/
+├── 01_Poziadavky/        Čo má systém robiť
+├── 02_Analyza/           Ako funguje problémová oblasť
+├── 03_Navrh/             Ako navrhneme riešenie
+├── 04_Implementacia/     Zdrojové kódy a aplikácia
+│   └── src/
+├── 05_Testovanie/        Overovanie správnosti
+├── 06_Dokumentacia/      Návody a inštalácia
+└── README.md
+```

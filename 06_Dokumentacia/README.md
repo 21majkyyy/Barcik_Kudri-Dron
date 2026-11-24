@@ -1,4 +1,4 @@
-# 06 DOKUMENTÁCIA – Návody a inštalácia
+# 06 Dokumentácia – Návody a inštalácia
 
 Obsah priečinka:
 - návod na zostavenie a zapojenie dronu,
