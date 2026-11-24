@@ -1,4 +1,4 @@
-# 03 NÁVRH – Ako navrhneme riešenie
+# 03 Návrh – Ako navrhneme riešenie
 
 Obsah priečinka:
 - bloková a elektrická schéma zapojenia (Radovan Kudri),
