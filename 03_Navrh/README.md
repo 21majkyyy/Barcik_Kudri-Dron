@@ -1,10 +1,11 @@
-# 03 Návrh – Ako navrhneme riešenie
+# 03 Návrh – Ako systém vytvoríme
 
 Obsah priečinka:
-- bloková a elektrická schéma zapojenia (Radovan Kudri),
-- architektúra firmvéru a stavový diagram ARM / DISARM / FAILSAFE (Marián Barcík),
-- návrh komunikačného protokolu medzi aplikáciou a dronom,
-- návrh používateľského rozhrania aplikácie,
+
+- architektúra a rozdelenie aplikácie (firmvér dronu, ovládacia aplikácia, komunikácia medzi nimi),
+- bloková a elektrická schéma zapojenia hardvéru,
+- ERD – návrh dátových štruktúr (nastavenia, kalibrácia, záznam letu, telemetria),
+- náčrty obrazoviek (UI) ovládacej aplikácie,
 - súpis komponentov s cenami.
 
 Stav: pripravuje sa.

@@ -3,6 +3,7 @@
 | Súbor | Obsah |
 |---|---|
 | `zadanie-a-ciel-projektu.md` | Zadanie a cieľ projektu |
-| `pripady-pouzitia/Pouzivatelske_roly_a_pripady_pouzitia.docx` | Používateľské roly, zoznam a diagram prípadov použitia |
-| `poziadavky.xlsx` | Funkcionálne a nefunkcionálne požiadavky, traceability matrix |
-| `pripady-pouzitia/UC-0xx_*.docx` | Prípady použitia UC-001 až UC-013 (podľa šablóny UC-00x) |
+| `pouzivatelske-roly.docx` | Používateľské roly (Pilot, Technik) a ostatní aktéri |
+| `poziadavky.xlsx` | Funkcionálne (FR) a nefunkcionálne (NFR) požiadavky s rolou a prioritou MoSCoW |
+
+**MoSCoW:** M – musí (Must), S – malo by (Should), C – môže (Could), W – nebude (Won't).

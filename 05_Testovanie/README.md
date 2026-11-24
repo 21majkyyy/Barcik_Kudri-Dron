@@ -1,8 +1,10 @@
-# 05 Testovanie – Overovanie správnosti
+# 05 Testovanie – Ako overíme, že program funguje
 
 Obsah priečinka:
-- testovacie scenáre odvodené z prípadov použitia (UC-001 až UC-013),
-- overenie akceptačných kritérií požiadaviek zo súboru `01_Poziadavky/poziadavky.xlsx` (aj hárok Traceability matrix),
-- protokoly z testov (dátum, miesto, výsledok).
+
+- testovacie scenáre odvodené z prípadov použitia UC-001 až UC-013,
+- testovacie vstupy a očakávané výstupy,
+- skutočné výsledky testov,
+- zoznam nájdených a opravených chýb.
 
 Stav: pripravuje sa.
