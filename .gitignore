@@ -1,0 +1,8 @@
+~$*
+.~lock.*
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.pio/
+build/
