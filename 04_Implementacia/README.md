@@ -1,8 +1,12 @@
-# 04 Implementácia – Zdrojové kódy a aplikácia
+# 04 Implementácia – Funkčný zdrojový kód
 
-Zdrojové kódy sú v priečinku `src/`:
+Obsah priečinka:
 
-- `src/firmver/` – firmvér riadiacej jednotky ESP32 (senzory, PID regulácia, WiFi komunikácia, bezpečnostné funkcie),
-- `src/aplikacia/` – webová ovládacia aplikácia (joysticky, telemetria, servisný režim).
+- `src/` – zdrojové súbory (firmvér riadiacej jednotky a ovládacia aplikácia),
+- konfiguračné a pomocné súbory,
+- obrázky a ďalšie zdroje aplikácie,
+- priebežne funkčná verzia programu.
+
+Do priečinka sa neukladajú dočasné súbory, cache, heslá ani virtuálne prostredia.
 
 Stav: pripravuje sa.

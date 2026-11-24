@@ -1,9 +1,10 @@
-# 06 Dokumentácia – Návody a inštalácia
+# 06 Dokumentácia – Ako aplikáciu spustiť a používať
 
 Obsah priečinka:
-- návod na zostavenie a zapojenie dronu,
-- návod na nahratie firmvéru,
-- používateľská príručka (pripojenie, let, bezpečnosť),
-- záverečná dokumentácia projektu.
+
+- používateľský návod (pripojenie, let, bezpečnosť),
+- postup inštalácie (zostavenie dronu, nahratie firmvéru),
+- požadovaný softvér a knižnice,
+- prihlasovacie roly – Pilot, Technik (bez hesiel).
 
 Stav: pripravuje sa.
